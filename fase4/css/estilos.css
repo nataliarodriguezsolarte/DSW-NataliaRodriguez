@@ -1,0 +1,41 @@
+.encabezado{
+    
+    background-color: #B1AFFF;
+    padding: 30px;
+    
+}
+.navegacion{
+    background-color: aquamarine;
+    color: black;
+    padding: 50px;
+}
+.contenedor2{
+    
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr ;
+    background-color: aqua;
+    padding: 50px;
+}
+
+.principal{
+    background-color: #B8E8FC;
+    padding: 30px;
+    grid-column: 1/4;
+}
+.lateral{
+    background-color: aquamarine;
+    padding: 30px;
+    grid-column: 1/2;
+}
+
+.pie{
+    background-color:#B1AFFF;
+    color: beige;
+    padding: 30px;
+}
+.menu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: aqua;
+}
